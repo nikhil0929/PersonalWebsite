@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #40514E;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 7vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    color:  #11999E;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+    font-weight: bold;
+}
+
+a {
+    color:  #11999E;
+}
+
+.top-container {
+    color: #c4edde;
+    position: relative;
+}
+
+.top-logo {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+    color: #384259;
+}
+
+.top-logo h2 {
+    color: #384259;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 15px 0;
+}
+
+.footer-link {
+    color: #384259;
+    margin: 0 20px;
+    line-height: 3;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.hills-img {
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.skill-img {
+    width: 40%;
+    height: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.food-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin-bottom: 140px;
+    line-height: 2.5;
+}
+
+.divider {
+    border: dotted 10px;
+    border-bottom: none;
+    width: 7%;
+    color: #8c8b8b;
+    margin: 75px auto 75px auto;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #66BFBF;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
